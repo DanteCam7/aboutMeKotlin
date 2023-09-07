@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">Dante Camacho</string>
+    <string name="yellow_star">Yellow Star</string>
+    <string name="bio">El tejón de la miel es un animal fascinante que habita en los bosques y que,
+        a menudo, pasa desapercibido para la mayoría de las personas. Sin embargo, este misterioso
+        habitante desempeña un papel crucial en el ecosistema y tiene una rica historia de interacción
+        con los seres humanos.
+        \n\nEl propósito de este ensayo es explorar en profundidad la biología, ecología y relación con
+        los seres humanos del tejón de la miel, destacando su importancia en el mundo natural y cultural.
+    el tejón de la miel es un misterioso habitante de los bosques con una rica historia de interacción
+        con los seres humanos.
+        \n\nSu biología y ecología son notables, y su conservación es esencial para
+        mantener el equilibrio en los ecosistemas en los que habita. Destacar su importancia en la ecología
+        y la cultura es fundamental, y debemos tomar medidas para proteger y preservar esta especie en peligro.
+        \n\nUn llamado a la acción para su conservación y protección nos recuerda la importancia de cuidar de todas las criaturas que comparten nuestro planeta.
+    </string>
+    <string name="nickname">What is your nickname?</string>
+</resources>
