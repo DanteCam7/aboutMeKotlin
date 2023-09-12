@@ -19,6 +19,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.databinding.DataBindingUtil
 import com.example.aboutme.databinding.ActivityMainBinding
 import com.example.aboutme.ui.theme.AboutMeTheme
+import com.example.aboutme.ui.theme.EditName
 
 
 class MainActivity : ComponentActivity() {
@@ -49,6 +50,9 @@ class MainActivity : ComponentActivity() {
         binding.doneButton.setOnClickListener{
             addNickname(it)
         }
+        binding.editButton.setOnClickListener{
+            editNames(it)
+        }
     }
 
     private fun addNickname(view: View){
@@ -71,11 +75,21 @@ class MainActivity : ComponentActivity() {
             nameEdition.visibility= View.GONE
             doneButton.visibility=View.GONE
             nicknameText.visibility=View.VISIBLE
+            textView.visibility=View.VISIBLE
         }
-
-
         val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         imm.hideSoftInputFromWindow(view.windowToken, 0)
+    }
+
+    private fun editNames(view: View){
+        binding.apply {
+            nicknameEdit.visibility= View.VISIBLE
+            nameEdition.visibility= View.VISIBLE
+            doneButton.visibility=View.VISIBLE
+            nicknameText.visibility=View.GONE
+            textView.visibility=View.GONE
+        }
+
     }
 
 }

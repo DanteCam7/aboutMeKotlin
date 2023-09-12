@@ -21,7 +21,8 @@
         android:layout_height="wrap_content"
         android:text="@={myName.name}"
         android:textAlignment="center"
-        style="@style/NameStyle" />
+        style="@style/NameStyle"
+        android:visibility="gone"/>
 
     <EditText
         android:id="@+id/name_edition"
@@ -64,6 +65,16 @@
         android:visibility="gone"
         android:text="@={myName.nickname}"/>
 
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:backgroundTint="#85E415"
+        android:fontFamily="@font/roboto"
+        android:text="@string/edit_names" />
+
     <ImageView
         android:id="@+id/star_image"
         android:layout_width="match_parent"
@@ -73,6 +84,7 @@
         android:contentDescription="@string/yellow_star"
         android:src="@android:drawable/btn_star_big_on"
         tools:src="@android:drawable/btn_star_big_on" />
+
 
     <ScrollView
         android:layout_width="match_parent"

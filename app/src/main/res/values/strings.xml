@@ -18,4 +18,5 @@
     <string name="nickname">What is your nickname?</string>
     <string name="done">Done</string>
     <string name="name_hint">What is your name?</string>
+    <string name="edit_names">Edit</string>
 </resources>
