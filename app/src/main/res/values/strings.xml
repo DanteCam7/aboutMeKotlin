@@ -17,4 +17,5 @@
     </string>
     <string name="nickname">What is your nickname?</string>
     <string name="done">Done</string>
+    <string name="name_hint">What is your name?</string>
 </resources>

@@ -65,8 +65,10 @@ class MainActivity : ComponentActivity() {
         binding.apply {
 //            nicknameText.text=binding.nicknameEdit.text
             myName?.nickname = nicknameEdit.text.toString()
+            myName?.name = nameEdition.text.toString()
             invalidateAll()
             nicknameEdit.visibility= View.GONE
+            nameEdition.visibility= View.GONE
             doneButton.visibility=View.GONE
             nicknameText.visibility=View.VISIBLE
         }
